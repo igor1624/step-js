@@ -1,4 +1,4 @@
-import {Widget} from "step-js";
+import {Widget} from "step-js/index";
 
 class ModalTitle extends Widget {
 
