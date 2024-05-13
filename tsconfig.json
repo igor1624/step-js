@@ -10,7 +10,8 @@
     "sourceMap": true,
     "baseUrl": "./",
     "paths": {
-      "@step-js-bootstrap/*": ["src/step-js-bootstrap/*"]
+      "@step-js-bootstrap/*": ["src/step-js-bootstrap/*"],
+      "@step-js-custom/*": ["src/step-js-custom/*"],
     }
   }
 }

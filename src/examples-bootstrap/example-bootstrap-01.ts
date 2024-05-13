@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BUTTON, DIV, VirtualDOM} from "step-js/index";
-import "./style.css";
+import {BUTTON, DIV} from "step-js/index";
+import { Container } from "@step-js-bootstrap/index";
 
 const ExampleBootstrap01 = () => {
   let container = new Container();
