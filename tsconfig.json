@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "target": "es5",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@step-js-bootstrap/*": ["src/step-js-bootstrap/*"]
+    }
+  }
+}
