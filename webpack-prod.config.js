@@ -11,7 +11,10 @@ module.exports = {
   entry: `./src/index.ts`,
   mode: 'production',
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js-bootstrap')
+    }
   },
   module: {
     rules: [

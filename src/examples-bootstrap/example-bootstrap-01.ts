@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BUTTON, DIV} from "step-js/index";
-import { Container } from "@step-js-bootstrap/index";
+import {BUTTON, DIV} from "step-js-core";
+import {Container} from "@step-js-bootstrap/index";
 
 const ExampleBootstrap01 = () => {
   let container = new Container();
@@ -10,7 +10,7 @@ const ExampleBootstrap01 = () => {
   let button = new BUTTON(container);
   button.setInnerText("PRESS ME");
   button.props.onClick = () => {
-    console.log("dfd");
+    console.log("Button was pressed");
     div.setInnerText("PRESSED");
   };
 

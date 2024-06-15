@@ -1,4 +1,4 @@
-import {Widget, SPAN} from "step-js/index";
+import {SPAN, Widget} from "@step-js-bootstrap/index";
 
 class SpinnerBorder extends Widget {
 

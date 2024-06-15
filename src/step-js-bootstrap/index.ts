@@ -1,4 +1,8 @@
 import {
+  SPAN,
+  Widget
+} from "step-js-core";
+import {
   Container,
   ContainerFluid
 } from "./layouts/containers";
@@ -13,6 +17,8 @@ import ModalFooter from "./modal/modal-footer";
 import SpinnerBorder from "./spinner-border/spinner-border";
 
 export {
+  SPAN,
+  Widget,
   Container,
   ContainerFluid,
   Row,

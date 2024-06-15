@@ -9,8 +9,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
     alias: {
-      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js-bootstrap'),
-      '@step-js-custom': path.resolve(__dirname, './src/step-js-custom')
+      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js-bootstrap')
     }
   },
   output: {
@@ -70,11 +69,9 @@ module.exports = {
     historyApiFallback:{
       index:'index.html'
     },
-    proxy: [
-      {
-        context: ['/api'],
-        target: 'http://localhost:8080',
-      },
-    ],
+    static: { 
+      directory: path.resolve(__dirname, './'), 
+      publicPath: '/'
+    }
   },
 };

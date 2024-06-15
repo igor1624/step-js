@@ -1,4 +1,4 @@
-import {Widget} from "step-js/index";
+import {Widget} from "@step-js-bootstrap/index";
 
 class ModalFooter extends Widget {
 

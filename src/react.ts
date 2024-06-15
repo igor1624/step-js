@@ -1,4 +1,4 @@
-import {Device, Component, VirtualDOM} from "step-js/index";
+import {Device, Component, VirtualDOM} from "step-js-core";
 
 const React = {
   createElement: Device.createVirtualElement,

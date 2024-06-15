@@ -1,0 +1,555 @@
+{
+  "sections": [
+    {
+      "type": "c",
+      "html": "English 001",
+      "cards34": [
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>be <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bi&nbsp;/</span></li><li>was <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;woz&nbsp;/</span><br>were <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;wɜ:&nbsp;/</span></li><li>been <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bi:n&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>быть<br>находиться<br>существовать</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>understand <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstænd&nbsp;/</span></li><li>understood <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstʊd&nbsp;/</span></li><li>understood <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstʊd&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>понимать</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I'm sorry, I don't understand.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Прошу прощения, я не понимаю.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>about <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əˈbaʊt&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>о<br>насчёт<br>относительно<br>про</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>book <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bʊk&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>книга</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>tail <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;teɪl&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>хвост</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;aɪ&nbsp;/</span></li><li>about me <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:&nbsp;/</span></li><li>my <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;maɪ&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>я</li><li>обо мне</li><li>моя книга</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>he <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hi&nbsp;/</span></li><li>about him <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪm&nbsp;/</span></li><li>his <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪz&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>он</li><li>о нём</li><li>его книга</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>she <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ʃi&nbsp;/</span></li><li>about her <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɜ:(r)&nbsp;/</span></li><li>her <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɜ:(r)&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>она</li><li>о ней</li><li>её книга</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>it <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪt&nbsp;/</span></li><li>about it <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪt&nbsp;/</span></li><li>its <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪts&nbsp;/</span> tail</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>он<br>она<br>оно<br>это</li><li>о нём<br>о ней</li><li>его хвост<br>её хвост</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>we <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;wi:&nbsp;/</span></li><li>about us <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ʌs&nbsp;/</span></li><li>our <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;aʊə(r)&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>мы</li><li>о нас</li><li>наша книга</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>you <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ju:&nbsp;/</span></li><li>about you <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ju:&nbsp;/</span></li><li>your <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jo:(r)&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>вы</li><li>о вас</li><li>ваша книга</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>they <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðeɪ&nbsp;/</span></li><li>about them <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðem&nbsp;/</span></li><li>their <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðeə(r)&nbsp;/</span> book</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>они</li><li>о них</li><li>их книга</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>this <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðɪs&nbsp;/</span></li><li>these <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ði:z&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>это<br>этот</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>This is me.<br>My name's Maria.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это я.<br>Меня зовут Мария.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>parents <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈpeə.rənts&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>родители</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>father <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈfɑ:.ðə(r)&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>отец</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>mother <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈmʌð.ə(r)&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>мать</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>These are my parents.<br>Here <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪə(r)&nbsp;/</span> is my father and here <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪə(r)&nbsp;/</span> is my mother.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это мои родители.<br>Вот мой отец, а вот моя мать.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>husband <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈhʌz.bənd&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>муж</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>This is my husband.<br>His name is Igor.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это мой муж.<br>Его зовут Игорь.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>have <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæv&nbsp;/</span></li><li>had <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæd&nbsp;/</span></li><li>had <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæd&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>иметь<br>обладать</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>son <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;sʌn&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>сын</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>We have a son.<br>His name is Ilya.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>У нас есть сын.<br>Его зовут Илья.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;haʊ&nbsp;/</span> old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> are you?</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вам?</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> are you?</li><li>I'm sixty-two.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вам?</li><li>Мне шестьдесят два.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>year <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪə(r)&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>год</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> is your husband?</li><li>He's sixty-two years <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪəz&nbsp;/</span> old too.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вашему мужу?</li><li>Ему тоже шестьдесят два года.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>также<br>тоже</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> is your husband?</li><li>He's sixty-two years <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪəz&nbsp;/</span> old too.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вашему мужу?</li><li>Ему тоже шестьдесят два года.</li></ul>"
+        }
+      ],
+      "cards43": [
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>быть<br>находиться<br>существовать</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>be <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bi&nbsp;/</span></li><li>was <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;woz&nbsp;/</span><br>were <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;wɜ:&nbsp;/</span></li><li>been <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bi:n&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>понимать</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>understand <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstænd&nbsp;/</span></li><li>understood <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstʊd&nbsp;/</span></li><li>understood <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˌʌndəˈstʊd&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Прошу прощения, я не понимаю.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I'm sorry, I don't understand.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>о<br>насчёт<br>относительно<br>про</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>about <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əˈbaʊt&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>книга</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>book <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bʊk&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>хвост</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>tail <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;teɪl&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>я</li><li>обо мне</li><li>моя книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;aɪ&nbsp;/</span></li><li>about me <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:&nbsp;/</span></li><li>my <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;maɪ&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>он</li><li>о нём</li><li>его книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>he <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hi&nbsp;/</span></li><li>about him <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪm&nbsp;/</span></li><li>his <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪz&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>она</li><li>о ней</li><li>её книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>she <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ʃi&nbsp;/</span></li><li>about her <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɜ:(r)&nbsp;/</span></li><li>her <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɜ:(r)&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>он<br>она<br>оно<br>это</li><li>о нём<br>о ней</li><li>его хвост<br>её хвост</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>it <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪt&nbsp;/</span></li><li>about it <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪt&nbsp;/</span></li><li>its <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɪts&nbsp;/</span> tail</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>мы</li><li>о нас</li><li>наша книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>we <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;wi:&nbsp;/</span></li><li>about us <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ʌs&nbsp;/</span></li><li>our <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;aʊə(r)&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>вы</li><li>о вас</li><li>ваша книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>you <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ju:&nbsp;/</span></li><li>about you <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ju:&nbsp;/</span></li><li>your <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jo:(r)&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>они</li><li>о них</li><li>их книга</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>they <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðeɪ&nbsp;/</span></li><li>about them <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðem&nbsp;/</span></li><li>their <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðeə(r)&nbsp;/</span> book</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>это<br>этот</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>this <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ðɪs&nbsp;/</span></li><li>these <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ði:z&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это я.<br>Меня зовут Мария.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>This is me.<br>My name's Maria.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>родители</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>parents <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈpeə.rənts&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>отец</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>father <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈfɑ:.ðə(r)&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>мать</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>mother <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈmʌð.ə(r)&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это мои родители.<br>Вот мой отец, а вот моя мать.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>These are my parents.<br>Here <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪə(r)&nbsp;/</span> is my father and here <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hɪə(r)&nbsp;/</span> is my mother.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>муж</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>husband <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈhʌz.bənd&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Это мой муж.<br>Его зовут Игорь.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>This is my husband.<br>His name is Igor.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>иметь<br>обладать</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>have <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæv&nbsp;/</span></li><li>had <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæd&nbsp;/</span></li><li>had <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;hæd&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>сын</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>son <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;sʌn&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>У нас есть сын.<br>Его зовут Илья.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>We have a son.<br>His name is Ilya.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вам?</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;haʊ&nbsp;/</span> old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> are you?</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вам?</li><li>Мне шестьдесят два.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> are you?</li><li>I'm sixty-two.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>год</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>year <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪə(r)&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вашему мужу?</li><li>Ему тоже шестьдесят два года.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> is your husband?</li><li>He's sixty-two years <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪəz&nbsp;/</span> old too.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>также<br>тоже</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Сколько вашему мужу?</li><li>Ему тоже шестьдесят два года.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>How old <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;əʊld&nbsp;/</span> is your husband?</li><li>He's sixty-two years <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;jɪəz&nbsp;/</span> old too.</li></ul>"
+        }
+      ]
+    },
+    {
+      "type": "c",
+      "html": "Oxford Navigate Beginner<br>1.1, Page 6",
+      "cards34": [
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>first <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈfɜ:st&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>первый</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meeting <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈmi:.tɪŋ&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>встреча<br>собрание<br>совещание</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>know <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nəʊ&nbsp;/</span></li><li>knew <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nju:&nbsp;/</span></li><li>known <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nəʊn&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>знать</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>никогда</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>"
+        },
+        {
+          "type": "a",
+          "synonyms": "1/2",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>1/2 <span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meet <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:t&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>встречаться<br>встречаться с</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>прежде<br>раньше</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>"
+        },
+        {
+          "type": "a",
+          "synonyms": "2/2",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>2/2 <span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meet <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:t&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>знакомиться с</li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Meet my husband.<br>His name's Igor.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Познакомьтесь с моим мужем.<br>Его зовут Игорь.</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>And you.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>Nice to meet you, too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span>.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>"
+        },
+        {
+          "type": "t",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>You too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span>.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on business <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔnˈbɪz.nɪs&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>по делам</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "UK",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'>UK</span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on holiday <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔnˈhɔl.ɪ.deɪ&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>в отпуске<br>на каникулах</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "US",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'>US</span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on vacation <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔn.vəˈkeɪ.ʃ(ə)n&nbsp;/</span></li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>в отпуске<br>на каникулах</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Hi <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;haɪ&nbsp;/</span>.</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Привет.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Hello <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;helˈəʊ&nbsp;/</span>.</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Здравствуйте.</li></ul>"
+        }
+      ],
+      "cards43": [
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>первый</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>first <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈfɜ:st&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>встреча<br>собрание<br>совещание</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meeting <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈmi:.tɪŋ&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>знать</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>know <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nəʊ&nbsp;/</span></li><li>knew <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nju:&nbsp;/</span></li><li>known <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;nəʊn&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>никогда</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>встречаться<br>встречаться с</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meet <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:t&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>прежде<br>раньше</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Я вас не знаю.<br>Мы никогда раньше не встречались.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>I don't know you.<br>We've never <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ˈnev.ə(r)&nbsp;/</span> met before <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;bɪˈfo:(r)&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "a",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>знакомиться с</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>meet <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;mi:t&nbsp;/</span></li></ul>",
+          "leftExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Познакомьтесь с моим мужем.<br>Его зовут Игорь.</li></ul>",
+          "rightExample": "<ul class='text-warning' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Meet my husband.<br>His name's Igor.</li></ul>"
+        },
+        {
+          "type": "t",
+          "synonyms": "1/3",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>1/3 <span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>And you.</li></ul>"
+        },
+        {
+          "type": "t",
+          "synonyms": "2/3",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>2/3 <span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>Nice to meet you, too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "t",
+          "synonyms": "3/3",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>3/3 <span class='text-danger'></span></div><ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Приятно познакомиться с вами.</li><li>Взаимно.</li></ul>",
+          "right": "&nbsp;<ul class='text-info' style='font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Nice <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;naɪs&nbsp;/</span> to <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tə&nbsp;/</span> meet you.</li><li>You too <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;tu:&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>по делам</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on business <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔnˈbɪz.nɪs&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "synonyms": "1/2",
+          "language": "UK",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>1/2 <span class='text-danger'>UK</span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>в отпуске<br>на каникулах</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on holiday <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔnˈhɔl.ɪ.deɪ&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "synonyms": "2/2",
+          "language": "US",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>2/2 <span class='text-danger'>US</span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>в отпуске<br>на каникулах</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>on vacation <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;ɔn.vəˈkeɪ.ʃ(ə)n&nbsp;/</span></li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Привет.</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Hi <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;haɪ&nbsp;/</span>.</li></ul>"
+        },
+        {
+          "type": "d",
+          "language": "",
+          "left": "<div style='margin-top:0.5rem;font-family:\"Noto Serif\";font-weight:400;font-size:0.75rem;'>&nbsp;<span class='text-danger'></span></div><ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Здравствуйте.</li></ul>",
+          "right": "&nbsp;<ul class='text-primary' style='white-space:nowrap;font-family:\"Noto Serif\";font-weight:600;letter-spacing:1px;'><li>Hello <span class='text-secondary' style='font-weight:400;letter-spacing:0;'>/&nbsp;helˈəʊ&nbsp;/</span>.</li></ul>"
+        }
+      ]
+    }
+  ]
+}
