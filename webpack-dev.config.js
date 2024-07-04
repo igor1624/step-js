@@ -1,22 +1,11 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
   entry: `./src/index.ts`,
   devtool: 'source-map',
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json'],
-    alias: {
-      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js-bootstrap')
-    }
-  },
-  output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js',
-    publicPath: ''
-  },
   module: {
     rules: [
       {
@@ -46,32 +35,33 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      '@step-js-core': path.resolve(__dirname, './step-js-core'),
+      '@step-js-html-5': path.resolve(__dirname, './src/step-js/html-5'),
+      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js/bootstrap'),
+      '@step-js-custom': path.resolve(__dirname, './src/step-js/custom')
+    }
+  },
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js',
+    publicPath: ''
+  },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, 'src/assets/images'),
-          to: path.join(__dirname, 'build/images'),
-        },
-      ]
-    }),
     new MiniCssExtractPlugin(),
     new HtmlPlugin({
-      title: 'step-js-example',
-      template: `src/index.html`,
-      favicon: `src/favicon.ico`,
+      title: `${process.env.APPLICATION_FOLDER}`,
+      title: 'step-js',
+      filename: 'index.html',
+      template: 'src/index.html',
+      favicon: 'src/favicon.ico',
+      inject: 'body'
     }),
   ],
   devServer: {
-    compress: true,
-    port: 8000,
-    allowedHosts: 'all',
-    historyApiFallback:{
-      index:'index.html'
-    },
-    static: { 
-      directory: path.resolve(__dirname, './'), 
-      publicPath: '/'
-    }
+    port: 8080,
+    historyApiFallback: true,
   },
 };

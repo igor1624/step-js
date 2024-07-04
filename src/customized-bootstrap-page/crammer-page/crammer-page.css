@@ -1,0 +1,64 @@
+.english-crammer-navigator {
+}
+
+.english-crammer-router-bottom-menu-div-selector {
+  position: absolute;
+  left: 230px;
+  top: -20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 500ms ease;
+}
+
+.english-crammer-router-bottom-menu-div ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0; /* reset bootstrap rule */
+  padding-left: 20px;
+  border-radius: 8px 8px 0 0;
+  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  transition: all 500ms ease;
+}
+
+.english-crammer-router-bottom-menu-div ul li {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.english-crammer-router-bottom-menu-div ul li.--selected {
+  cursor: default;
+}
+
+.english-crammer-router-bottom-menu-div-button {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+  height: 80px;
+  transform: translateY(0);
+  transition: all 500ms ease;
+}
+
+.english-crammer-router-bottom-menu-div-button[disabled] {
+  opacity: 1.0;
+}
+
+.english-crammer-router-bottom-menu-div ul li.--selected .english-crammer-router-bottom-menu-div-button {
+  transform: translateY(-16px);
+}

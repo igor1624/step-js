@@ -1,0 +1,25 @@
+.button {
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.round-button {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bs-orange);
+}
+
+.button .active-html-element,
+.button .active-border-html-element {
+  border-radius: 8px;
+}
+
+.round-button .active-html-element,
+.round-button .active-border-html-element {
+  border-radius: 50%;
+}

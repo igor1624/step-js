@@ -1,0 +1,25 @@
+
+.crammer-button {
+  bottom: -6rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  font-family: inherit;
+  transition: all 500ms ease;
+}
+
+.crammer-settings-button {
+  bottom: 0;
+}
+
+.crammer-button.active {
+  bottom: 0;
+}
+
+.crammer-button.selected {
+  cursor: default;
+  user-select: none;
+  bottom: 0.5rem;
+}

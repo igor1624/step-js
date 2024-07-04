@@ -1,0 +1,11 @@
+.page-title-collapse {
+  display: block;
+  flex-grow: 1;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .page-title-collapse {
+    display: none
+  }
+}

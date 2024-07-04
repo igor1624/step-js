@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "SFMono-MediumItalic";
+  src: url("assets/fonts/SFMono-MediumItalic.otf") format("opentype");
+}
+
+.source-page {
+  font-family: "SFMono-MediumItalic", monospace;
+}
+
+.source-line {
+  white-space: nowrap;
+}
+
+.source-line span {
+  display: inline-block;
+}
+

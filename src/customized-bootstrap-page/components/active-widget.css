@@ -1,0 +1,32 @@
+.active-widget {
+  cursor: pointer;
+  /* will be set in active-widget.ts */
+  --active-background-color: transparent;
+  --active-border-offset: 0;
+  --active-border-size: 2px;
+  --active-border-color: var(--bs-orange);
+}
+
+.active-widget[disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.active-border-html-element {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: var(--active-border-size) solid var(--active-border-color);
+}
+
+.active-html-element {
+  position: absolute;
+  left: var(--active-border-offset);
+  top: var(--active-border-offset);
+  right: var(--active-border-offset);
+  bottom: var(--active-border-offset);
+  opacity: 0;
+  background-color: var(--active-background-color);
+}

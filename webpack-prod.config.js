@@ -3,19 +3,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HTMLInlineCSSPlugin = require("html-inline-css-webpack-plugin").default;
 const HtmlInlineScriptPlugin = require('html-inline-script-webpack-plugin');
-const CopyPlugin = require("copy-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
   entry: `./src/index.ts`,
   mode: 'production',
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json'],
-    alias: {
-      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js-bootstrap')
-    }
-  },
   module: {
     rules: [
       {
@@ -31,7 +25,10 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        loader: "file-loader",
+          options: {
+             name: "assets/images/[name].[ext]"
+          }
       },
       {
         test: /\.svg/,
@@ -45,22 +42,24 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js'],
+    alias: {
+      '@step-js-core': path.resolve(__dirname, './step-js-core'),
+      '@step-js-html-5': path.resolve(__dirname, './src/step-js/html-5'),
+      '@step-js-bootstrap': path.resolve(__dirname, './src/step-js/bootstrap'),
+      '@step-js-custom': path.resolve(__dirname, './src/step-js/custom')
+    }
+  },
   plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, 'src/assets/images'),
-          to: path.resolve(__dirname, '../electron-desktop/build/images'),
-        },
-      ]
-    }),
     new MiniCssExtractPlugin(),
     new HtmlInlineScriptPlugin(),
     new HtmlPlugin({
-      title: 'web-pecker-example',
+      title: 'step-js',
       filename: 'index.html',
-      template: `src/index.html`,
-      favicon: `src/favicon.ico`,
+      template: 'src/index.html',
+      favicon: 'src/favicon.ico',
+      inject: 'body'
     }),
     new HTMLInlineCSSPlugin(),
   ],
@@ -71,7 +70,7 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, '../electron-desktop/build'),
+    path: path.resolve(__dirname, './build'),
     publicPath: './',
     clean: true,
   },
