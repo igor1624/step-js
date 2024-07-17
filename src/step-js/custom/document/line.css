@@ -1,0 +1,8 @@
+.step-js-line {
+  white-space: nowrap;
+}
+
+.step-js-line span {
+  display: inline-block;
+}
+

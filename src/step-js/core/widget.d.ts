@@ -17,8 +17,8 @@ declare class Widget extends Component {
     setStyle(style: Object): this;
     getStyleRule(name: string): any;
     setStyleRule(name: string, value: string): this;
-    setInnerText(innerText: string): void;
-    setInnerHTML(innerHTML: string): void;
+    setInnerText(innerText: string): this;
+    setInnerHTML(innerHTML: string): this;
     getChildren(): any[];
     add(child: any): any;
     removeAll(): void;

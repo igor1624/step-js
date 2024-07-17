@@ -1,0 +1,19 @@
+.side-bar-toggle {
+
+}
+
+.side-bar-toggle-close {
+
+}
+
+.side-bar-toggle-open {
+  display: none;
+}
+
+.step-js-drawer.-closed .side-bar-toggle-close {
+  display: none;
+}
+
+.step-js-drawer.-closed .side-bar-toggle-open {
+  display: block;
+}

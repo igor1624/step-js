@@ -156,6 +156,13 @@ namespace Dropdown {
       };
 
       this.addClassNames("show");
+      const rect = this.menuParentHTMLElement.getBoundingClientRect();
+      Utils.setHTMLElementVisible(this.menuHTMLElement, {
+        x: rect.left,
+        y: rect.bottom + 3,
+        byX: "left",
+        byY: "top"
+      });
     }
 
     hide() {

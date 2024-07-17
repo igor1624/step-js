@@ -2,7 +2,6 @@ import {React} from "@step-js-core/index";
 import CloseRoundButton from "../components/close-round-button.jsx";
 import {PrimaryButton} from "../components/buttons.jsx";
 import "./modal.css";
-import MonaLisaPNG from "../../assets/images/mona-lisa.png";
 
 class Modal08 extends React.Component {
   image;
@@ -36,7 +35,7 @@ class Modal08 extends React.Component {
           }}
         >
           <img
-            src={MonaLisaPNG}
+            src="../../assets/images/mona-lisa.png"
             alt=""
             width="100%"
             height="auto"

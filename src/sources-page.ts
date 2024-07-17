@@ -4,6 +4,7 @@ import {Nav, Toast, ToastContainer, ToastHeader} from "@step-js-bootstrap/index"
 import {RoundButton} from "./customized-bootstrap-page/components/buttons";
 import ExamplesButton from "./examples-button";
 import "./sources-page.css";
+import {ScrollablePanel} from "@step-js-custom/index";
 
 class SourcesPage extends DIV {
   parentDIV: DIV;
@@ -63,11 +64,7 @@ class SourcesPage extends DIV {
       });
     };
 
-    let div = new DIV("flex-grow-1 p-3 source-page", this);
-    div.setStyle({
-      overflowY: "scroll",
-      overflowX: "scroll",
-    });
+    let scrollablePanel = new ScrollablePanel("both", "flex-grow-1 p-3 source-page", this);
 
     this.lines = [];
     if ((this.getState().id === 0) && (this.parentDIV.getState().tsSource)) {
@@ -77,7 +74,7 @@ class SourcesPage extends DIV {
       this.lines = this.parentDIV.getState().htmlSource.split("\n");
     }
     this.lines.forEach((line: string) => {
-      const lineDIV = new DIV("source-line", div);
+      const lineDIV = new DIV("source-line", scrollablePanel);
       const words = this.createWords(line);
       if (words.length === 0) {
         lineDIV.add(new SPAN(undefined).setInnerHTML("&nbsp;"));
@@ -88,7 +85,7 @@ class SourcesPage extends DIV {
       });
     });
 
-    div = new DIV("flex-grow-0 border-top p-3", this);
+    let div = new DIV("flex-grow-0 border-top p-3", this);
 
     const copyButton = new ExamplesButton("fa-solid fa-copy", "Copy");
     div.add(copyButton);

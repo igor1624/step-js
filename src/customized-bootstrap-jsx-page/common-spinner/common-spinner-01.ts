@@ -14,7 +14,11 @@ class CommonSpinner01 extends ScrollablePanel {
 
   constructor(parentDIV: DIV, ...params: any) {
     super("vertical", ...params);
-    this.addClassNames("h-100");
+    this.setStyleRule("position","absolute");
+    this.setStyleRule("left", "0");
+    this.setStyleRule("top", "0");
+    this.setStyleRule("right", "0");
+    this.setStyleRule("bottom", "0");
     this.parentDIV = parentDIV;
   }
 

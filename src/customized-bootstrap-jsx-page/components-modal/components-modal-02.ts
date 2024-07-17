@@ -15,14 +15,18 @@ class ComponentsModal02 extends ScrollablePanel {
 
   constructor(parentDIV: DIV, ...params: any) {
     super("vertical", ...params);
-    this.addClassNames("h-100");
+    this.setStyleRule("position","absolute");
+    this.setStyleRule("left", "0");
+    this.setStyleRule("top", "0");
+    this.setStyleRule("right", "0");
+    this.setStyleRule("bottom", "0");
     this.parentDIV = parentDIV;
   }
 
   mount() {
     const card = new Card("m-3", this);
     const cardHeader = new CardHeader("py-4", card);
-    new H4("MODAL 2", cardHeader);
+    new H4("Modal / Privacy info", cardHeader);
     const a = new A({
       href: "https://www.figma.com/file/pLzezNSNm0MenZKcai7kKr/Auto-Layout-Dialog-(Community)-(Community)?type=design&node-id=0-1&mode=design&t=V7YGXDT2al6dBf4j-0"
     }, cardHeader);

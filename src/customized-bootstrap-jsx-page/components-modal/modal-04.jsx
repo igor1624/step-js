@@ -57,10 +57,10 @@ class Modal04 extends React.Component {
             }}
           >
             <div
-              className="modal-title w-100 px-4"
+              className="modal-title w-100 px-2"
             >
               <h5
-                className="text-center custom-title"
+                className="text-left custom-title"
               >
                 {this.title}
               </h5>
@@ -70,7 +70,7 @@ class Modal04 extends React.Component {
             className="modal-body px-4"
           >
             <p
-              className="text-center custom-gray-description"
+              className="text-left custom-gray-description"
             >
               {this.grayDescription}
             </p>

@@ -1,30 +1,66 @@
-import {DIV} from "@step-js-html-5/index";
-import SourcesPage from "../../sources-page";
-import ThemesToggler from "@step-js-custom/themes-toggler/themes-toggler";
-import CommonThemesToggler01 from "./common-themes-toggler";
+import {
+  Card,
+  CardHeader,
+  ListGroup,
+  ListGroupItem,
+} from "@step-js-bootstrap/index";
+import ExamplesButton from "../../examples-button";
+import {H4, A, DIV} from "@step-js-html-5/index";
+import {ScrollablePanel, ThemesToggler} from "@step-js-custom/index";
 
-class CommonThemesToggler extends DIV {
-  pathname: string;
+class CommonThemesToggler01 extends ScrollablePanel {
+  parentDIV: DIV;
 
-  constructor(pathname: string, ...params: any) {
-    super(...params);
-    this.addClassNames("h-100 position-relative");
-    this.setState({
-      htmlSource: undefined,
-      tsSource: undefined
-    });
-    this.pathname = pathname;
+  constructor(parentDIV: DIV, ...params: any) {
+    super("vertical", ...params);
+    this.setStyleRule("position","absolute");
+    this.setStyleRule("left", "0");
+    this.setStyleRule("top", "0");
+    this.setStyleRule("right", "0");
+    this.setStyleRule("bottom", "0");
+    this.parentDIV = parentDIV;
   }
 
   mount() {
-    if (this.pathname.indexOf("/themes-toggler-1") >= 0) {
-      this.add(new CommonThemesToggler01(this));
-    }
+    const card = new Card("m-3", this);
+    const cardHeader = new CardHeader("py-4", card);
+    new H4("Spinner", cardHeader);
+    const a = new A({
+      href: "https://getbootstrap.com/docs/5.2/components/navs-tabs"
+    }, cardHeader);
+    a.setInnerText("Bootstrap 5.2 / Components / Navs & Tabs");
 
-    if ((this.getState().htmlSource) || (this.getState().tsSource)) {
-      this.add(new SourcesPage(this));
+    const listGroup = new ListGroup(card);
+    listGroup.addClassNames("list-group-flush");
+
+    let listGroupItem = new ListGroupItem(listGroup);
+    listGroupItem.add(new Example());
+
+    listGroupItem = new ListGroupItem("py-4 d-flex justify-content-end", listGroup);
+    const button = new ExamplesButton("fa-solid fa-code", "Code");
+    listGroupItem.add(button);
+    button.props.onClick = () => {
+      this.parentDIV.setState({
+        htmlSource: htmlSource,
+        tsSource: tsSource
+      });
     }
   }
 }
 
-export default CommonThemesToggler;
+class Example extends DIV {
+
+  mount() {
+    const div = new DIV("m-5 d-flex justify-content-center align-items-center", this);
+    div.add(new ThemesToggler({
+      htmlElement: document.body
+    }));
+  }
+}
+
+const htmlSource = null;
+
+const tsSource = `
+`;
+
+export default CommonThemesToggler01;

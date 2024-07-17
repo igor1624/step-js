@@ -1,5 +1,4 @@
 import {A, P, DIV, H4, H5} from "@step-js-html-5/index";
-import {ScrollablePanel} from "@step-js-custom/index";
 import {Card, CardHeader} from "@step-js-bootstrap/components/card";
 import {ListGroup, ListGroupItem} from "@step-js-bootstrap/components/list-group";
 import ExamplesButton from "../../examples-button";
@@ -8,13 +7,18 @@ import {
   BtnSecondary,
   Modal,
 } from "@step-js-bootstrap/index";
+import {ScrollablePanel} from "@step-js-custom/index";
 
 class ComponentsModal01 extends ScrollablePanel {
   parentDIV: DIV;
 
   constructor(parentDIV: DIV, ...params: any) {
     super("vertical", ...params);
-    this.addClassNames("h-100");
+    this.setStyleRule("position","absolute");
+    this.setStyleRule("left", "0");
+    this.setStyleRule("top", "0");
+    this.setStyleRule("right", "0");
+    this.setStyleRule("bottom", "0");
     this.parentDIV = parentDIV;
   }
 

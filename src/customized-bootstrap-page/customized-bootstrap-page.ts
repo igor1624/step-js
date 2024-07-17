@@ -1,39 +1,43 @@
-import {DrawerSM, ThemesToggler} from "@step-js-custom/index";
-import {DIV, SPAN} from "@step-js-html-5/index";
-import ScrollablePanel from "@step-js-custom/scrollable-panel/scrollable-panel";
+import {Drawer, DrawerMD} from "@step-js-custom/index";
+import {DIV, IMG, SPAN} from "@step-js-html-5/index";
+import SideBar from "../side-bar";
+import SourcesPage from "../sources-page";
+import About01 from "./about/about-01";
+import SideBarToggle from "../side-bar-toggle";
 
-class CustomizedBootstrapPage extends DrawerSM {
+class CustomizedBootstrapPage extends DrawerMD {
   pathname: string;
 
   constructor(pathname: string, ...params: any) {
     super("left", ...params);
     this.addClassNames("h-100");
     this.pathname = pathname;
+    this.setState({
+      htmlSource: undefined,
+      tsSource: undefined
+    });
   }
 
   mount() {
-    this.add(new SideBar(this.pathname));
-    this.add(new SPAN("sds"));
-  }
-}
+    const model = [
+    ];
+    const toggle = new SideBarToggle(this);
+    this.add(new SideBar(model, this.pathname, toggle));
+    const div0 = new DIV("h-100 d-flex flex-column position-relative");
 
-// SideBar
+    let div1 = new DIV("flex-grow-0 flex-shrink-0 d-flex justify-content-center align-items-center");
+    div1.setStyleRule("flex-basis", "4rem");
+    div1.setStyleRule("font-weight", "700");
+    div1.setInnerText("CUSTOMIZED BOOTSTRAP");
+    div0.add(div1);
 
-class SideBar extends DIV {
-  pathname: string;
+    div1.add(new About01(this));
 
-  constructor(pathname: string, ...params: any) {
-    super(...params);
-    this.addClassNames("h-100 d-flex flex-column align-items-stretch border-end");
-    this.pathname = pathname;
-  }
+    if ((this.getState().htmlSource) || (this.getState().tsSource)) {
+      div1.add(new SourcesPage(this));
+    }
 
-  mount() {
-    const panel = new ScrollablePanel("vertical", "flex-grow-1 border-bottom", this);
-    const div = new DIV("flex-grow-0 p-3 d-flex justify-content-end", this);
-    div.add(new ThemesToggler({
-      htmlElement: document.body
-    }));
+    this.add(div0);
   }
 }
 

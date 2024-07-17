@@ -1,53 +1,26 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Router, VirtualDOM, Widget} from "@step-js-core/index";
-import {ContainerFluid, Nav, Navbar, NavbarLG, NavbarMD} from "@step-js-bootstrap/index";
+import {BootstrapRouter, ContainerFluid, Nav, Navbar, NavbarLG, NavbarMD} from "@step-js-bootstrap/index";
 import GetStartedPage from "./get-started-page/get-started-page";
 import {DIV, IMG, SPAN} from "@step-js-html-5/index";
 import BootstrapPage from "./bootstrap-page/bootstrap-page";
 import CustomizedBootstrapPage from "./customized-bootstrap-page/customized-bootstrap-page";
-import CrammerPage from "./customized-bootstrap-page/crammer-page/crammer-page";
-import ComponentsNavAndTabs from "./bootstrap-page/components-navs-and-tabs/components-nav-and-tabs";
 import Utils from "@step-js-core/utils";
-import ComponentsDropdowns from "./bootstrap-page/components-dropdowns/components-dropdowns";
-import ComponentsNavbar from "./bootstrap-page/components-navbar/components-navbar";
-import ComponentsModal from "./customized-bootstrap-jsx-page/components-modal/components-modal";
 
 import "./index.css";
 import "./step-js-examples.css";
 import CustomizedBootstrapJSXPage from "./customized-bootstrap-jsx-page/customized-bootstrap-jsx-page";
+import LayoutContainers01 from "./bootstrap-page/layout-containers/layout-containers-01";
 
-class ExamplesRouter extends Router {
+class ExamplesRouter extends BootstrapRouter {
   currentPage: Widget | null;
 
   constructor(...params: any) {
     super(...params);
-    this.setStyle({
-      position: "fixed",
-      left: 0,
-      top: 0,
-      width: "100%",
-      height: "100%",
-      overflow: "hidden",
-      display: "flex",
-      flexDirection: "column"
-    });
     this.currentPage = null;
-    this.setState({
-      pathname: window.location.pathname,
-      search: window.location.search,
-    });
   }
 
   mount() {
-    //VirtualDOM.mount(new CrammerPage());
-    //const p = new ComponentsNavAndTabs();p.addClassNames("h-100");
-    //const p = new ComponentsNavbar();p.addClassNames("h-100");
-    //const p = new ComponentsDropdowns();p.addClassNames("h-100");
-    //const p = new BootstrapPage("layout/containers");
-    //const p = new JsxModals();
-    //this.add(p);
-    //return;
-
     const navbar = new NavbarMD("border-bottom flex-grow-0 p-3", this);
     const container = new ContainerFluid("mx-1 position-relative", navbar);
     container.setStyleRule("--bs-gutter-x", "0");
@@ -103,78 +76,6 @@ class ExamplesRouter extends Router {
       this.add(new BootstrapPage(this.state.pathname));
     }
   }
-
-  handleWindowLocationChange() {
-    this.setState({
-      pathname: window.location.pathname,
-      search: window.location.search,
-    });
-  }
-
-  handleResizeEvent(event: any) {
-  }
 }
 
 VirtualDOM.mount(new ExamplesRouter());
-
-
-/*import React from "react";
-import ReactDOM from "react-dom/client";
-import "bootstrap/dist/css/bootstrap.min.css";
-import BootstrapExamples from "./bootstrap-examples/bootstrap-examples";
-import DesignStudio from "./design-studio/design-studio";
-import reportWebVitals from "./reportWebVitals";
-import {Tabs} from "antd";
-import HomePage from "./home/home-page";
-import CustomExamples from "./custom-examples/custom-examples";
-import GetStartedPage from "./get-started/get-started-page";
-import "./index.css";
-
-const tabItems = [
-  {
-    label: "Home",
-    key: "home",
-    children: <HomePage />
-  },
-  {
-    label: "Bootstrap",
-    key: "bootstrap",
-    children: <BootstrapExamples />
-  },
-  {
-    label: "Custom",
-    key: "custom",
-    children: <CustomExamples />
-  },
-  {
-    label: "Design Studio",
-    key: "design-studio",
-    children: <DesignStudio />
-  },
-  {
-    label: "Get Started",
-    key: "get-started",
-    children: <GetStartedPage />
-  }
-];
-
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <Tabs
-      style={{
-        height: "100%",
-        padding: "0 1rem 0 1rem"
-      }}
-      items={tabItems}
-    />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
-*/

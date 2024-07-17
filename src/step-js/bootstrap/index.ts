@@ -71,8 +71,75 @@ import {
   ToastHeader,
   ToastBody
 } from "./components/toasts";
+import {Router, Utils} from "@step-js-core/index";
+
+class BootstrapRouter extends Router {
+
+  constructor(...params: any) {
+    super(...params);
+    this.setStyle({
+      position: "fixed",
+      left: 0,
+      top: 0,
+      width: "100%",
+      height: "100%",
+      overflow: "hidden",
+      display: "flex",
+      flexDirection: "column"
+    });
+    this.setState({
+      pathname: window.location.pathname,
+      search: window.location.search,
+    });
+  }
+
+  handleWindowLocationChange() {
+    this.setState({
+      pathname: window.location.pathname,
+      search: window.location.search,
+    });
+  }
+
+  handleResizeEvent(event: any) {
+  }
+
+  static createBootstrapProbes() {
+    // breakpoint probes
+    if (!document.getElementById("--step-js-sm-visible")) {
+      Utils.mountHTMLElement(document.body, "div", {
+        id: "--step-js-sm-visible",
+        className: "d-none d-sm-block"
+      });
+    }
+    if (!document.getElementById("--step-js-md-visible")) {
+      Utils.mountHTMLElement(document.body, "div", {
+        id: "--step-js-md-visible",
+        className: "d-none d-md-block"
+      });
+    }
+    if (!document.getElementById("--step-js-lg-visible")) {
+      Utils.mountHTMLElement(document.body, "div", {
+        id: "--step-js-lg-visible",
+        className: "d-none d-lg-block"
+      });
+    }
+    if (!document.getElementById("--step-js-xl-visible")) {
+      Utils.mountHTMLElement(document.body, "div", {
+        id: "--step-js-xl-visible",
+        className: "d-none d-xl-block"
+      });
+    }
+    if (!document.getElementById("--step-js-xxl-visible")) {
+      Utils.mountHTMLElement(document.body, "div", {
+        id: "--step-js-xxl-visible",
+        className: "d-none d-xxl-block"
+      });
+    }
+  }
+}
 
 export {
+  BootstrapRouter,
   Container,
   ContainerSM,
   ContainerMD,

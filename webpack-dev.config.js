@@ -38,7 +38,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
     alias: {
-      '@step-js-core': path.resolve(__dirname, './step-js-core'),
+      '@step-js-core': path.resolve(__dirname, './src/step-js/core'),
       '@step-js-html-5': path.resolve(__dirname, './src/step-js/html-5'),
       '@step-js-bootstrap': path.resolve(__dirname, './src/step-js/bootstrap'),
       '@step-js-custom': path.resolve(__dirname, './src/step-js/custom')
