@@ -10,9 +10,11 @@ class Modal08 extends React.Component {
   okButtonText;
   onCancel;
   onOK;
+  props;
 
   constructor(props) {
     super(props);
+    this.props = props;
     this.image = props.image;
     this.title = props.title;
     this.grayDescription = props.grayDescription;

@@ -1,6 +1,7 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require('webpack');
+const CopyPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
 module.exports = {
@@ -50,6 +51,14 @@ module.exports = {
     publicPath: ''
   },
   plugins: [
+     new CopyPlugin({
+      patterns: [
+        { from: "src/assets/images", to: "assets/images" }
+      ],
+      options: {
+        concurrency: 100,
+      },
+    }),
     new MiniCssExtractPlugin(),
     new HtmlPlugin({
       title: `${process.env.APPLICATION_FOLDER}`,

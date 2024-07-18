@@ -1,4 +1,5 @@
 const HtmlPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HTMLInlineCSSPlugin = require("html-inline-css-webpack-plugin").default;
@@ -52,6 +53,14 @@ module.exports = {
     }
   },
   plugins: [
+     new CopyPlugin({
+      patterns: [
+        { from: "src/assets/images", to: "assets/images" }
+      ],
+      options: {
+        concurrency: 100,
+      },
+    }),
     new MiniCssExtractPlugin(),
     new HtmlInlineScriptPlugin(),
     new HtmlPlugin({
