@@ -70,7 +70,7 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, './docs'),
+    path: path.resolve(__dirname, './build'),
     publicPath: './',
     clean: true,
   },

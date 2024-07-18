@@ -142,23 +142,23 @@ class DrawerSM extends Drawer {
     BootstrapRouter.createBootstrapProbes();
     let smVisible: any = document.getElementById("--step-js-sm-visible");
     if (smVisible) {
-      smVisible = smVisible.checkVisibility();
+      smVisible = smVisible.offsetParent !== null;
     }
     let mdVisible: any = document.getElementById("--step-js-md-visible");
     if (mdVisible) {
-      mdVisible = mdVisible.checkVisibility();
+      mdVisible = mdVisible.offsetParent !== null;
     }
     let lgVisible: any = document.getElementById("--step-js-lg-visible");
     if (lgVisible) {
-      lgVisible = lgVisible.checkVisibility();
+      lgVisible = lgVisible.offsetParent !== null;
     }
     let xlVisible: any = document.getElementById("--step-js-xl-visible");
     if (xlVisible) {
-      xlVisible = xlVisible.checkVisibility();
+      xlVisible = xlVisible.offsetParent !== null;
     }
     let xxlVisible: any = document.getElementById("--step-js-xxl-visible");
     if (xxlVisible) {
-      xxlVisible = xxlVisible.checkVisibility();
+      xxlVisible = xxlVisible.offsetParent !== null;
     }
     if (smVisible) {
     } else if (mdVisible) {
@@ -182,23 +182,23 @@ class DrawerMD extends Drawer {
     BootstrapRouter.createBootstrapProbes();
     let smVisible: any = document.getElementById("--step-js-sm-visible");
     if (smVisible) {
-      smVisible = smVisible.checkVisibility();
+      smVisible = smVisible.offsetParent !== null;
     }
     let mdVisible: any = document.getElementById("--step-js-md-visible");
     if (mdVisible) {
-      mdVisible = mdVisible.checkVisibility();
+      mdVisible = mdVisible.offsetParent !== null;
     }
     let lgVisible: any = document.getElementById("--step-js-lg-visible");
     if (lgVisible) {
-      lgVisible = lgVisible.checkVisibility();
+      lgVisible = lgVisible.offsetParent !== null;
     }
     let xlVisible: any = document.getElementById("--step-js-xl-visible");
     if (xlVisible) {
-      xlVisible = xlVisible.checkVisibility();
+      xlVisible = xlVisible.offsetParent !== null;
     }
     let xxlVisible: any = document.getElementById("--step-js-xxl-visible");
     if (xxlVisible) {
-      xxlVisible = xxlVisible.checkVisibility();
+      xxlVisible = xxlVisible.offsetParent !== null;
     }
     if (mdVisible) {
     } else if (lgVisible) {
@@ -221,23 +221,23 @@ class DrawerLG extends Drawer {
     BootstrapRouter.createBootstrapProbes();
     let smVisible: any = document.getElementById("--step-js-sm-visible");
     if (smVisible) {
-      smVisible = smVisible.checkVisibility();
+      smVisible = smVisible.offsetParent !== null;
     }
     let mdVisible: any = document.getElementById("--step-js-md-visible");
     if (mdVisible) {
-      mdVisible = mdVisible.checkVisibility();
+      mdVisible = mdVisible.offsetParent !== null;
     }
     let lgVisible: any = document.getElementById("--step-js-lg-visible");
     if (lgVisible) {
-      lgVisible = lgVisible.checkVisibility();
+      lgVisible = lgVisible.offsetParent !== null;
     }
     let xlVisible: any = document.getElementById("--step-js-xl-visible");
     if (xlVisible) {
-      xlVisible = xlVisible.checkVisibility();
+      xlVisible = xlVisible.offsetParent !== null;
     }
     let xxlVisible: any = document.getElementById("--step-js-xxl-visible");
     if (xxlVisible) {
-      xxlVisible = xxlVisible.checkVisibility();
+      xxlVisible = xxlVisible.offsetParent !== null;
     }
     if (lgVisible) {
     } else if (xlVisible) {
@@ -260,23 +260,23 @@ class DrawerXL extends Drawer {
     BootstrapRouter.createBootstrapProbes();
     let smVisible: any = document.getElementById("--step-js-sm-visible");
     if (smVisible) {
-      smVisible = smVisible.checkVisibility();
+      smVisible = smVisible.offsetParent !== null;
     }
     let mdVisible: any = document.getElementById("--step-js-md-visible");
     if (mdVisible) {
-      mdVisible = mdVisible.checkVisibility();
+      mdVisible = mdVisible.offsetParent !== null;
     }
     let lgVisible: any = document.getElementById("--step-js-lg-visible");
     if (lgVisible) {
-      lgVisible = lgVisible.checkVisibility();
+      lgVisible = lgVisible.offsetParent !== null;
     }
     let xlVisible: any = document.getElementById("--step-js-xl-visible");
     if (xlVisible) {
-      xlVisible = xlVisible.checkVisibility();
+      xlVisible = xlVisible.offsetParent !== null;
     }
     let xxlVisible: any = document.getElementById("--step-js-xxl-visible");
     if (xxlVisible) {
-      xxlVisible = xxlVisible.checkVisibility();
+      xxlVisible = xxlVisible.offsetParent !== null;
     }
     if (xlVisible) {
     } else if (xxlVisible) {
@@ -298,23 +298,23 @@ class DrawerXXL extends Drawer {
     BootstrapRouter.createBootstrapProbes();
     let smVisible: any = document.getElementById("--step-js-sm-visible");
     if (smVisible) {
-      smVisible = smVisible.checkVisibility();
+      smVisible = smVisible.offsetParent !== null;
     }
     let mdVisible: any = document.getElementById("--step-js-md-visible");
     if (mdVisible) {
-      mdVisible = mdVisible.checkVisibility();
+      mdVisible = mdVisible.offsetParent !== null;
     }
     let lgVisible: any = document.getElementById("--step-js-lg-visible");
     if (lgVisible) {
-      lgVisible = lgVisible.checkVisibility();
+      lgVisible = lgVisible.offsetParent !== null;
     }
     let xlVisible: any = document.getElementById("--step-js-xl-visible");
     if (xlVisible) {
-      xlVisible = xlVisible.checkVisibility();
+      xlVisible = xlVisible.offsetParent !== null;
     }
     let xxlVisible: any = document.getElementById("--step-js-xxl-visible");
     if (xxlVisible) {
-      xxlVisible = xxlVisible.checkVisibility();
+      xxlVisible = xxlVisible.offsetParent !== null;
     }
     if (xxlVisible) {
     } else {

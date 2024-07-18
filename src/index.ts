@@ -78,4 +78,4 @@ class ExamplesRouter extends BootstrapRouter {
   }
 }
 
-VirtualDOM.mount(new ExamplesRouter());
+VirtualDOM.mount(new ExamplesRouter(), document.getElementById("step-js-root"));
